@@ -9,4 +9,14 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: aliceblue;
+  font-weight: 600;
+}
+.budget-color {
+  color: blueviolet;
+}
+.cart-color {
+  color: blueviolet;
+}
+.left-color {
+  color: blueviolet;
 }
