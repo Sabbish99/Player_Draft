@@ -1,0 +1,12 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 50px 100px;
+  border: 2px solid blue;
+  padding: 12px;
+}
+.navbar {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+}
