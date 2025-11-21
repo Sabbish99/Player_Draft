@@ -24,6 +24,13 @@ body {
   color: blueviolet;
 }
 
+/* player details */
+.player-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
 /* player list */
 .player-section {
   margin-top: 100px;
@@ -40,7 +47,7 @@ body {
 /* player-add-cart btn  */
 .player-add-cart {
   border: none;
-  background-color: orangered;
+  background-color: rgb(171, 46, 0);
   color: white;
   padding: 16px 32px;
   border-radius: 8px;
@@ -53,5 +60,34 @@ body {
   margin-top: 100px;
 }
 .my-cart-section {
-  border: 2px solid red;
+  border: 2px solid rgb(255, 174, 145);
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 12px;
+}
+.cart-list {
+  display: flex;
+  justify-content: space-around;
+}
+.inputSection {
+  display: flex;
+  justify-content: space-between;
+}
+.coupon-input {
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  width: 50%;
+}
+.apply {
+  border: none;
+  background-color: orangered;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 32px;
+  border-radius: 4px;
+  margin-left: 12px;
+  width: 50%;
 }
