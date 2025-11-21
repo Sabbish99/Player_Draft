@@ -4,8 +4,11 @@ body {
   border: 2px solid blue;
   padding: 12px;
 }
+
+/* nav bar design */
 .navbar {
-  border: 2px solid red;
+  border: 2px solid rgb(255, 174, 145);
+  border-radius: 12px;
   display: flex;
   justify-content: space-around;
   background-color: aliceblue;
@@ -19,4 +22,36 @@ body {
 }
 .left-color {
   color: blueviolet;
+}
+
+/* player list */
+.player-section {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.player-list {
+  border: 2px solid rgb(255, 174, 145);
+  padding: 20px;
+  border-radius: 12px;
+  background-color: aliceblue;
+}
+/* player-add-cart btn  */
+.player-add-cart {
+  border: none;
+  background-color: orangered;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* my cart design */
+.add-cart {
+  margin-top: 100px;
+}
+.my-cart-section {
+  border: 2px solid red;
 }
